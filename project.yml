@@ -1,0 +1,118 @@
+---
+name: SpiceMethod
+packages:
+  SFSafeSymbols:
+    url: https://github.com/piknotech/SFSafeSymbols.git
+    from: 2.0.1
+  WhatsNewKit:
+    url: https://github.com/SvenTiigi/WhatsNewKit
+    from: 1.3.7
+configs:
+  Debug: debug
+  Production: debug
+  Release: release
+options:
+  xcodeVersion: '12.2'
+  deploymentTarget:
+    iOS: '14.0'
+targetTemplates:
+  App:
+    type: application
+    sources:
+      - path: Shared
+      # - R.generated.swift
+    preBuildScripts:
+    - script: |
+        if [ "$UPDATE_R_SWIFT" == "YES" ]; then
+          $PODS_ROOT/R.swift/rswift generate $SRCROOT/R.generated.swift
+        fi
+      name: R.swift Run Script
+      inputFiles:
+      - "$TEMP_DIR/rswift-lastrun"
+      outputFiles:
+      - "$SRCROOT/R.generated.swift"
+    - script: "${PODS_ROOT}/SwiftLint/swiftlint"
+      name: Swiftlint Run Script
+    info:
+      properties:
+        CFBundleShortVersionString: &CFBundleShortVersionString 1.0.0
+        CFBundleVersion: &CFBundleVersion '202012040852'
+    settings:
+      configs:
+        Debug: &1
+          SWIFT_OPTIMIZATION_LEVEL: "-Onone"
+          GCC_PREPROCESSOR_DEFINITIONS:
+          - "$(inherited)"
+          - DEBUG=1
+          OTHER_SWIFT_FLAGS:
+          - "$(inherited)"
+          - "-D"
+          - Debug
+          - "-Xfrontend -debug-time-function-bodies"
+        Release:
+          OTHER_SWIFT_FLAGS:
+          - "$(inherited)"
+          - "-D"
+          - Release
+    dependencies:
+    - package: SFSafeSymbols
+    - package: WhatsNewKit
+targets:
+  SpiceMethod (iOS):
+    templates: 
+      - App
+    configFiles:
+      Debug: Configurations/SpiceMethod (iOS)-Debug.xcconfig
+      Release: Configurations/SpiceMethod (iOS)-Release.xcconfig
+    platform: iOS
+    info:
+      path: SpiceMethod (iOS)/Info.plist
+    settings:
+      base:
+        CODE_SIGN_STYLE: Manual
+        PROVISIONING_PROFILE_SPECIFIER: com.akira.matsuda.SpiceMethod (iOS) Development
+        UPDATE_R_SWIFT: false
+        DEVELOPMENT_TEAM: 3VC35JGS33
+    scheme:
+      testTargets:
+      - Tests iOS
+      environmentVariables:
+        DYLD_PRINT_STATISTICS: true
+  SpiceMethod (macOS):
+    templates: 
+      - App
+    configFiles:
+      Debug: Configurations/SpiceMethod (macOS)-Debug.xcconfig
+      Release: Configurations/SpiceMethod (macOS)-Release.xcconfig
+    platform: macOS
+    info:
+      path: SpiceMethod (macOS)/Info.plist
+    settings:
+      base:
+        CODE_SIGN_STYLE: Manual
+        PROVISIONING_PROFILE_SPECIFIER: com.akira.matsuda.SpiceMethod (macOS) Development
+        UPDATE_R_SWIFT: false
+        DEVELOPMENT_TEAM: 3VC35JGS33
+    scheme:
+      testTargets:
+      - Tests macOS
+      environmentVariables:
+        DYLD_PRINT_STATISTICS: true
+  Tests iOS:
+    type: bundle.unit-test
+    platform: iOS
+    sources: Tests iOS
+    configFiles:
+      Debug: Configurations/Tests iOS-Debug.xcconfig
+      Release: Configurations/Tests iOS-Release.xcconfig
+    dependencies:
+    - target: SpiceMethod (iOS)
+  Tests macOS:
+    type: bundle.unit-test
+    platform: macOS
+    sources: Tests macOS
+    configFiles:
+      Debug: Configurations/Tests macOS-Debug.xcconfig
+      Release: Configurations/Tests macOS-Release.xcconfig
+    dependencies:
+    - target: SpiceMethod (macOS)

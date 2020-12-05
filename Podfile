@@ -3,9 +3,12 @@ platform :ios, '14.0'
 #use_frameworks! :linkage => :static
 use_frameworks!
 
-target 'SpiceMethod' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  pod 'SwiftLint'
-  pod 'SwiftFormat/CLI'
-  pod 'R.swift'
+pod 'SwiftLint'
+pod 'SwiftFormat/CLI'
+pod 'R.swift'
+
+target 'SpiceMethod (iOS)' do
+end
+
+target 'SpiceMethod (macOS)' do
 end

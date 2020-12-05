@@ -3,358 +3,603 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9D27062257B65AB009C182A /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D27061257B65AB009C182A /* Tests_iOS.swift */; };
-		E9D2706D257B65AB009C182A /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2706C257B65AB009C182A /* Tests_macOS.swift */; };
-		E9D2706F257B65AB009C182A /* SpiceMethodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D27046257B65AA009C182A /* SpiceMethodApp.swift */; };
-		E9D27070257B65AB009C182A /* SpiceMethodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D27046257B65AA009C182A /* SpiceMethodApp.swift */; };
-		E9D27071257B65AB009C182A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D27047257B65AA009C182A /* ContentView.swift */; };
-		E9D27072257B65AB009C182A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D27047257B65AA009C182A /* ContentView.swift */; };
-		E9D27073257B65AB009C182A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D27048257B65AB009C182A /* Assets.xcassets */; };
-		E9D27074257B65AB009C182A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D27048257B65AB009C182A /* Assets.xcassets */; };
+		2162377202DE56E856812160 /* SpiceMethodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229543FF9126669F2BECE891 /* SpiceMethodApp.swift */; };
+		21B44E51ECA7A636CBB5008A /* Pods_SpiceMethod__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E52981FB3D968E9EB52A1C /* Pods_SpiceMethod__iOS_.framework */; };
+		384E18A7431B8773DE8A47CC /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 686443CD6511186A52D6BF3D /* SwiftPackageProductDependency */; };
+		5F1A45E0EAC57D04AF354D8A /* SpiceMethodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229543FF9126669F2BECE891 /* SpiceMethodApp.swift */; };
+		73502D1281226CBED67ADAB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33108D340F59A7E7B07089A5 /* ContentView.swift */; };
+		75C9978506BB17526429E7AB /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 2A27BB0C184E1BFA28DBDA79 /* SwiftPackageProductDependency */; };
+		77A70C8BBCA7769DD537E3C2 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A126F884D182C9A52C9CF75 /* Tests_macOS.swift */; };
+		7EEC4942EAB1537CA4948122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CF892B07762253F0653D82 /* Assets.xcassets */; };
+		854D2FE8E181E9A34AADAB3D /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 62BBE24379727F475C360D65 /* SwiftPackageProductDependency */; };
+		C6F367A8BB5236851B37DADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CF892B07762253F0653D82 /* Assets.xcassets */; };
+		D0E8F64DFC3660C56DBD7CA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33108D340F59A7E7B07089A5 /* ContentView.swift */; };
+		DD8B37D36EA80B568ACD9B3E /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 752D51BDF13D9B66C5B70E37 /* SwiftPackageProductDependency */; };
+		EB7DCE25C139EC7B1AC0EE40 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126FE6FE533DBB2FD9E8FE5 /* Tests_iOS.swift */; };
+		FE7367CB8522DC50D4F71F47 /* Pods_SpiceMethod__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BDF7714F5BC10F2438EB55 /* Pods_SpiceMethod__macOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E9D2705E257B65AB009C182A /* PBXContainerItemProxy */ = {
+		2626B2A4006EE7981DCDD901 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E9D27041257B65AA009C182A /* Project object */;
+			containerPortal = E6FF84450C85829198556111 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E9D2704C257B65AB009C182A;
-			remoteInfo = "SpiceMethod (iOS)";
-		};
-		E9D27069257B65AB009C182A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E9D27041257B65AA009C182A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E9D27054257B65AB009C182A;
+			remoteGlobalIDString = 8878A8D795408BDF3F35E2BA;
 			remoteInfo = "SpiceMethod (macOS)";
+		};
+		626FD13B77B02C0580CC0F72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6FF84450C85829198556111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB239FE12E25E6C01BB3C15;
+			remoteInfo = "SpiceMethod (iOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E9D27046257B65AA009C182A /* SpiceMethodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiceMethodApp.swift; sourceTree = "<group>"; };
-		E9D27047257B65AA009C182A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E9D27048257B65AB009C182A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E9D2704D257B65AB009C182A /* SpiceMethod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiceMethod.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9D27050257B65AB009C182A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9D27055257B65AB009C182A /* SpiceMethod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiceMethod.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9D27057257B65AB009C182A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9D27058257B65AB009C182A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		E9D2705D257B65AB009C182A /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9D27061257B65AB009C182A /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		E9D27063257B65AB009C182A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9D27068257B65AB009C182A /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9D2706C257B65AB009C182A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		E9D2706E257B65AB009C182A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229543FF9126669F2BECE891 /* SpiceMethodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiceMethodApp.swift; sourceTree = "<group>"; };
+		286D21A73BC5F3CFECDAD775 /* SpiceMethod (iOS)-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SpiceMethod (iOS)-Debug.xcconfig"; sourceTree = "<group>"; };
+		2A126F884D182C9A52C9CF75 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		30BDF7714F5BC10F2438EB55 /* Pods_SpiceMethod__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiceMethod__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		313160B9A8B0E40B6FF31FA7 /* SpiceMethod (macOS)-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SpiceMethod (macOS)-Release.xcconfig"; sourceTree = "<group>"; };
+		33108D340F59A7E7B07089A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33617305203E4C15C8156389 /* Pods-SpiceMethod (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiceMethod (macOS).release.xcconfig"; path = "Target Support Files/Pods-SpiceMethod (macOS)/Pods-SpiceMethod (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		5085F6EB5A0B92C5C6FD8FCD /* Tests macOS-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Tests macOS-Debug.xcconfig"; sourceTree = "<group>"; };
+		539457D9C64CBB5F163A1A57 /* SpiceMethod (macOS)-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SpiceMethod (macOS)-Debug.xcconfig"; sourceTree = "<group>"; };
+		53CF892B07762253F0653D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55E1C22D73B097EACBCF99B5 /* Pods-SpiceMethod (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiceMethod (iOS).release.xcconfig"; path = "Target Support Files/Pods-SpiceMethod (iOS)/Pods-SpiceMethod (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		56E52981FB3D968E9EB52A1C /* Pods_SpiceMethod__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiceMethod__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C69B395C0B68C6582108FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		60BC3B4C327BA5AF085B0C49 /* SpiceMethod (macOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpiceMethod (macOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6609CEE3E73F6765177C98A1 /* SpiceMethod (iOS).app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "SpiceMethod (iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F38C079DA711C2A1A888138 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7126FE6FE533DBB2FD9E8FE5 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		8D68C193F1302271925E5DEB /* Tests iOS-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Tests iOS-Release.xcconfig"; sourceTree = "<group>"; };
+		99BF549FF442C00A14D846F9 /* SpiceMethod (iOS)-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SpiceMethod (iOS)-Release.xcconfig"; sourceTree = "<group>"; };
+		B0523F9CF81AA607B37BE4BF /* Pods-SpiceMethod (macOS).production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiceMethod (macOS).production.xcconfig"; path = "Target Support Files/Pods-SpiceMethod (macOS)/Pods-SpiceMethod (macOS).production.xcconfig"; sourceTree = "<group>"; };
+		BB585378EF5EC6FBC094A4A5 /* Tests iOS.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC185A36177E0FA9374168D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CAC8C4AE2FC33C2D52BA33ED /* Tests iOS-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Tests iOS-Debug.xcconfig"; sourceTree = "<group>"; };
+		CB4ACB5F9ECD097DC6861585 /* Pods-SpiceMethod (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiceMethod (macOS).debug.xcconfig"; path = "Target Support Files/Pods-SpiceMethod (macOS)/Pods-SpiceMethod (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		D4C3C3B66ABD0011FB1334C6 /* Pods-SpiceMethod (iOS).production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiceMethod (iOS).production.xcconfig"; path = "Target Support Files/Pods-SpiceMethod (iOS)/Pods-SpiceMethod (iOS).production.xcconfig"; sourceTree = "<group>"; };
+		E79B568C8B55CC761190CCDA /* Tests macOS-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Tests macOS-Release.xcconfig"; sourceTree = "<group>"; };
+		FB3E7CAD7E4046E1D03BA299 /* Pods-SpiceMethod (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiceMethod (iOS).debug.xcconfig"; path = "Target Support Files/Pods-SpiceMethod (iOS)/Pods-SpiceMethod (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E9D2704A257B65AB009C182A /* Frameworks */ = {
+		0C1F462D488D53599C743503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8B37D36EA80B568ACD9B3E /* BuildFile in Frameworks */,
+				854D2FE8E181E9A34AADAB3D /* BuildFile in Frameworks */,
+				FE7367CB8522DC50D4F71F47 /* Pods_SpiceMethod__macOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A02996DE3E940F4C12BA1A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D27052257B65AB009C182A /* Frameworks */ = {
+		6FFD61F23BA51981CD6AC6DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D2705A257B65AB009C182A /* Frameworks */ = {
+		7D5F85567A9EEA0F39F5A92C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9D27065257B65AB009C182A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				384E18A7431B8773DE8A47CC /* BuildFile in Frameworks */,
+				75C9978506BB17526429E7AB /* BuildFile in Frameworks */,
+				21B44E51ECA7A636CBB5008A /* Pods_SpiceMethod__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E9D27040257B65AA009C182A = {
+		337D0998E8B8944A30FFE926 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
-				E9D27045257B65AA009C182A /* Shared */,
-				E9D2704F257B65AB009C182A /* iOS */,
-				E9D27056257B65AB009C182A /* macOS */,
-				E9D27060257B65AB009C182A /* Tests iOS */,
-				E9D2706B257B65AB009C182A /* Tests macOS */,
-				E9D2704E257B65AB009C182A /* Products */,
+				286D21A73BC5F3CFECDAD775 /* SpiceMethod (iOS)-Debug.xcconfig */,
+				99BF549FF442C00A14D846F9 /* SpiceMethod (iOS)-Release.xcconfig */,
+				539457D9C64CBB5F163A1A57 /* SpiceMethod (macOS)-Debug.xcconfig */,
+				313160B9A8B0E40B6FF31FA7 /* SpiceMethod (macOS)-Release.xcconfig */,
+				CAC8C4AE2FC33C2D52BA33ED /* Tests iOS-Debug.xcconfig */,
+				8D68C193F1302271925E5DEB /* Tests iOS-Release.xcconfig */,
+				5085F6EB5A0B92C5C6FD8FCD /* Tests macOS-Debug.xcconfig */,
+				E79B568C8B55CC761190CCDA /* Tests macOS-Release.xcconfig */,
 			);
+			path = Configurations;
 			sourceTree = "<group>";
 		};
-		E9D27045257B65AA009C182A /* Shared */ = {
+		496C3E08E853FCE58F49AC31 /* Tests iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E9D27046257B65AA009C182A /* SpiceMethodApp.swift */,
-				E9D27047257B65AA009C182A /* ContentView.swift */,
-				E9D27048257B65AB009C182A /* Assets.xcassets */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		E9D2704E257B65AB009C182A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E9D2704D257B65AB009C182A /* SpiceMethod.app */,
-				E9D27055257B65AB009C182A /* SpiceMethod.app */,
-				E9D2705D257B65AB009C182A /* Tests iOS.xctest */,
-				E9D27068257B65AB009C182A /* Tests macOS.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E9D2704F257B65AB009C182A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				E9D27050257B65AB009C182A /* Info.plist */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		E9D27056257B65AB009C182A /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				E9D27057257B65AB009C182A /* Info.plist */,
-				E9D27058257B65AB009C182A /* macOS.entitlements */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		E9D27060257B65AB009C182A /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				E9D27061257B65AB009C182A /* Tests_iOS.swift */,
-				E9D27063257B65AB009C182A /* Info.plist */,
+				5C69B395C0B68C6582108FC4 /* Info.plist */,
+				7126FE6FE533DBB2FD9E8FE5 /* Tests_iOS.swift */,
 			);
 			path = "Tests iOS";
 			sourceTree = "<group>";
 		};
-		E9D2706B257B65AB009C182A /* Tests macOS */ = {
+		5B59E5ADB7DE9A6E7E60B46E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				E9D2706C257B65AB009C182A /* Tests_macOS.swift */,
-				E9D2706E257B65AB009C182A /* Info.plist */,
+				53CF892B07762253F0653D82 /* Assets.xcassets */,
+				33108D340F59A7E7B07089A5 /* ContentView.swift */,
+				229543FF9126669F2BECE891 /* SpiceMethodApp.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		79645D35A4AF9156AC389150 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56E52981FB3D968E9EB52A1C /* Pods_SpiceMethod__iOS_.framework */,
+				30BDF7714F5BC10F2438EB55 /* Pods_SpiceMethod__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8440DACD35F28C5CD4E7771B /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				BDC185A36177E0FA9374168D /* Info.plist */,
+				2A126F884D182C9A52C9CF75 /* Tests_macOS.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		B4E6BF10AF11C08F39385F0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6609CEE3E73F6765177C98A1 /* SpiceMethod (iOS).app */,
+				60BC3B4C327BA5AF085B0C49 /* SpiceMethod (macOS).app */,
+				BB585378EF5EC6FBC094A4A5 /* Tests iOS.xctest */,
+				6F38C079DA711C2A1A888138 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAA8EFD2B4250A725E649E5C = {
+			isa = PBXGroup;
+			children = (
+				337D0998E8B8944A30FFE926 /* Configurations */,
+				5B59E5ADB7DE9A6E7E60B46E /* Shared */,
+				496C3E08E853FCE58F49AC31 /* Tests iOS */,
+				8440DACD35F28C5CD4E7771B /* Tests macOS */,
+				B4E6BF10AF11C08F39385F0A /* Products */,
+				D2E2C510AFCF73DEC80F4336 /* Pods */,
+				79645D35A4AF9156AC389150 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2E2C510AFCF73DEC80F4336 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB3E7CAD7E4046E1D03BA299 /* Pods-SpiceMethod (iOS).debug.xcconfig */,
+				D4C3C3B66ABD0011FB1334C6 /* Pods-SpiceMethod (iOS).production.xcconfig */,
+				55E1C22D73B097EACBCF99B5 /* Pods-SpiceMethod (iOS).release.xcconfig */,
+				CB4ACB5F9ECD097DC6861585 /* Pods-SpiceMethod (macOS).debug.xcconfig */,
+				B0523F9CF81AA607B37BE4BF /* Pods-SpiceMethod (macOS).production.xcconfig */,
+				33617305203E4C15C8156389 /* Pods-SpiceMethod (macOS).release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E9D2704C257B65AB009C182A /* SpiceMethod (iOS) */ = {
+		5A73E03F7AC7870FE412B58D /* Tests iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9D27077257B65AB009C182A /* Build configuration list for PBXNativeTarget "SpiceMethod (iOS)" */;
+			buildConfigurationList = 44168689532FB18162F88CFD /* Build configuration list for PBXNativeTarget "Tests iOS" */;
 			buildPhases = (
-				E9D27049257B65AB009C182A /* Sources */,
-				E9D2704A257B65AB009C182A /* Frameworks */,
-				E9D2704B257B65AB009C182A /* Resources */,
+				5E022D0D57EAB6C95D6B9D6D /* Sources */,
+				40A02996DE3E940F4C12BA1A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EB26736E5180B3FA0D3F7566 /* PBXTargetDependency */,
 			);
-			name = "SpiceMethod (iOS)";
-			productName = "SpiceMethod (iOS)";
-			productReference = E9D2704D257B65AB009C182A /* SpiceMethod.app */;
-			productType = "com.apple.product-type.application";
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = BB585378EF5EC6FBC094A4A5 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E9D27054257B65AB009C182A /* SpiceMethod (macOS) */ = {
+		8878A8D795408BDF3F35E2BA /* SpiceMethod (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9D2707A257B65AB009C182A /* Build configuration list for PBXNativeTarget "SpiceMethod (macOS)" */;
+			buildConfigurationList = 23061A4A92459AF851FDEB67 /* Build configuration list for PBXNativeTarget "SpiceMethod (macOS)" */;
 			buildPhases = (
-				E9D27051257B65AB009C182A /* Sources */,
-				E9D27052257B65AB009C182A /* Frameworks */,
-				E9D27053257B65AB009C182A /* Resources */,
+				52331E2ADF9E2E6F3E29F7D2 /* [CP] Check Pods Manifest.lock */,
+				1F9C36074C776A97A15A2FF0 /* R.swift Run Script */,
+				C6116DB3AF3B6EE6DB6AA501 /* Swiftlint Run Script */,
+				6CD7D388D3E63A799743A4F8 /* Sources */,
+				41BFA696FB1B18B3AFE96464 /* Resources */,
+				0C1F462D488D53599C743503 /* Frameworks */,
+				7CA2014995726D9EDA5B57A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "SpiceMethod (macOS)";
+			packageProductDependencies = (
+				752D51BDF13D9B66C5B70E37 /* SwiftPackageProductDependency */,
+				62BBE24379727F475C360D65 /* SwiftPackageProductDependency */,
+			);
 			productName = "SpiceMethod (macOS)";
-			productReference = E9D27055257B65AB009C182A /* SpiceMethod.app */;
+			productReference = 60BC3B4C327BA5AF085B0C49 /* SpiceMethod (macOS).app */;
 			productType = "com.apple.product-type.application";
 		};
-		E9D2705C257B65AB009C182A /* Tests iOS */ = {
+		B258AA7A4B253229184A3B2F /* Tests macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9D2707D257B65AB009C182A /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildConfigurationList = 53B14520FD9A94F41AB71756 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
 			buildPhases = (
-				E9D27059257B65AB009C182A /* Sources */,
-				E9D2705A257B65AB009C182A /* Frameworks */,
-				E9D2705B257B65AB009C182A /* Resources */,
+				8D94DBE7F5E1F898CF8784D4 /* Sources */,
+				6FFD61F23BA51981CD6AC6DA /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E9D2705F257B65AB009C182A /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = E9D2705D257B65AB009C182A /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		E9D27067257B65AB009C182A /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E9D27080257B65AB009C182A /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				E9D27064257B65AB009C182A /* Sources */,
-				E9D27065257B65AB009C182A /* Frameworks */,
-				E9D27066257B65AB009C182A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E9D2706A257B65AB009C182A /* PBXTargetDependency */,
+				A230C7750EAE59A0900A53E6 /* PBXTargetDependency */,
 			);
 			name = "Tests macOS";
 			productName = "Tests macOS";
-			productReference = E9D27068257B65AB009C182A /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			productReference = 6F38C079DA711C2A1A888138 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAB239FE12E25E6C01BB3C15 /* SpiceMethod (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2104836D14FF0C94A3332610 /* Build configuration list for PBXNativeTarget "SpiceMethod (iOS)" */;
+			buildPhases = (
+				C4F996A4DCFFC87DD9494735 /* [CP] Check Pods Manifest.lock */,
+				1ED69D4759491379F147C52A /* R.swift Run Script */,
+				288EB55403179C7CA832EE9F /* Swiftlint Run Script */,
+				BC937F71BCDC6DEF307E293A /* Sources */,
+				1C2C4F39045E3EE05700A0A4 /* Resources */,
+				7D5F85567A9EEA0F39F5A92C /* Frameworks */,
+				B982A83EE6984B26C3B59903 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpiceMethod (iOS)";
+			packageProductDependencies = (
+				686443CD6511186A52D6BF3D /* SwiftPackageProductDependency */,
+				2A27BB0C184E1BFA28DBDA79 /* SwiftPackageProductDependency */,
+			);
+			productName = "SpiceMethod (iOS)";
+			productReference = 6609CEE3E73F6765177C98A1 /* SpiceMethod (iOS).app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E9D27041257B65AA009C182A /* Project object */ = {
+		E6FF84450C85829198556111 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					E9D2704C257B65AB009C182A = {
-						CreatedOnToolsVersion = 12.2;
+					8878A8D795408BDF3F35E2BA = {
+						DevelopmentTeam = 3VC35JGS33;
+						ProvisioningStyle = Manual;
 					};
-					E9D27054257B65AB009C182A = {
-						CreatedOnToolsVersion = 12.2;
-					};
-					E9D2705C257B65AB009C182A = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = E9D2704C257B65AB009C182A;
-					};
-					E9D27067257B65AB009C182A = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = E9D27054257B65AB009C182A;
+					FAB239FE12E25E6C01BB3C15 = {
+						DevelopmentTeam = 3VC35JGS33;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = E9D27044257B65AA009C182A /* Build configuration list for PBXProject "SpiceMethod" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 752EB65AD1434021289E86E4 /* Build configuration list for PBXProject "SpiceMethod" */;
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = E9D27040257B65AA009C182A;
-			productRefGroup = E9D2704E257B65AB009C182A /* Products */;
+			mainGroup = CAA8EFD2B4250A725E649E5C;
+			packageReferences = (
+				52AFC2620CB6AD2ABEC882DD /* RemoteSwiftPackageReference */,
+				E85494B29FB18CCECE6B13E9 /* RemoteSwiftPackageReference */,
+			);
+			productRefGroup = B4E6BF10AF11C08F39385F0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9D2704C257B65AB009C182A /* SpiceMethod (iOS) */,
-				E9D27054257B65AB009C182A /* SpiceMethod (macOS) */,
-				E9D2705C257B65AB009C182A /* Tests iOS */,
-				E9D27067257B65AB009C182A /* Tests macOS */,
+				FAB239FE12E25E6C01BB3C15 /* SpiceMethod (iOS) */,
+				8878A8D795408BDF3F35E2BA /* SpiceMethod (macOS) */,
+				5A73E03F7AC7870FE412B58D /* Tests iOS */,
+				B258AA7A4B253229184A3B2F /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E9D2704B257B65AB009C182A /* Resources */ = {
+		1C2C4F39045E3EE05700A0A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D27073257B65AB009C182A /* Assets.xcassets in Resources */,
+				7EEC4942EAB1537CA4948122 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D27053257B65AB009C182A /* Resources */ = {
+		41BFA696FB1B18B3AFE96464 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D27074257B65AB009C182A /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9D2705B257B65AB009C182A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9D27066257B65AB009C182A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C6F367A8BB5236851B37DADB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ED69D4759491379F147C52A /* R.swift Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = "R.swift Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$SRCROOT/R.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$UPDATE_R_SWIFT\" == \"YES\" ]; then\n  $PODS_ROOT/R.swift/rswift generate $SRCROOT/R.generated.swift\nfi\n";
+		};
+		1F9C36074C776A97A15A2FF0 /* R.swift Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = "R.swift Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$SRCROOT/R.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$UPDATE_R_SWIFT\" == \"YES\" ]; then\n  $PODS_ROOT/R.swift/rswift generate $SRCROOT/R.generated.swift\nfi\n";
+		};
+		288EB55403179C7CA832EE9F /* Swiftlint Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swiftlint Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint";
+		};
+		52331E2ADF9E2E6F3E29F7D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpiceMethod (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CA2014995726D9EDA5B57A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpiceMethod (macOS)/Pods-SpiceMethod (macOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpiceMethod (macOS)/Pods-SpiceMethod (macOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpiceMethod (macOS)/Pods-SpiceMethod (macOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B982A83EE6984B26C3B59903 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpiceMethod (iOS)/Pods-SpiceMethod (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpiceMethod (iOS)/Pods-SpiceMethod (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpiceMethod (iOS)/Pods-SpiceMethod (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4F996A4DCFFC87DD9494735 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpiceMethod (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6116DB3AF3B6EE6DB6AA501 /* Swiftlint Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swiftlint Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		E9D27049257B65AB009C182A /* Sources */ = {
+		5E022D0D57EAB6C95D6B9D6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D27071257B65AB009C182A /* ContentView.swift in Sources */,
-				E9D2706F257B65AB009C182A /* SpiceMethodApp.swift in Sources */,
+				EB7DCE25C139EC7B1AC0EE40 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D27051257B65AB009C182A /* Sources */ = {
+		6CD7D388D3E63A799743A4F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D27072257B65AB009C182A /* ContentView.swift in Sources */,
-				E9D27070257B65AB009C182A /* SpiceMethodApp.swift in Sources */,
+				73502D1281226CBED67ADAB6 /* ContentView.swift in Sources */,
+				5F1A45E0EAC57D04AF354D8A /* SpiceMethodApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D27059257B65AB009C182A /* Sources */ = {
+		8D94DBE7F5E1F898CF8784D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D27062257B65AB009C182A /* Tests_iOS.swift in Sources */,
+				77A70C8BBCA7769DD537E3C2 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D27064257B65AB009C182A /* Sources */ = {
+		BC937F71BCDC6DEF307E293A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D2706D257B65AB009C182A /* Tests_macOS.swift in Sources */,
+				D0E8F64DFC3660C56DBD7CA9 /* ContentView.swift in Sources */,
+				2162377202DE56E856812160 /* SpiceMethodApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E9D2705F257B65AB009C182A /* PBXTargetDependency */ = {
+		A230C7750EAE59A0900A53E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E9D2704C257B65AB009C182A /* SpiceMethod (iOS) */;
-			targetProxy = E9D2705E257B65AB009C182A /* PBXContainerItemProxy */;
+			target = 8878A8D795408BDF3F35E2BA /* SpiceMethod (macOS) */;
+			targetProxy = 2626B2A4006EE7981DCDD901 /* PBXContainerItemProxy */;
 		};
-		E9D2706A257B65AB009C182A /* PBXTargetDependency */ = {
+		EB26736E5180B3FA0D3F7566 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E9D27054257B65AB009C182A /* SpiceMethod (macOS) */;
-			targetProxy = E9D27069257B65AB009C182A /* PBXContainerItemProxy */;
+			target = FAB239FE12E25E6C01BB3C15 /* SpiceMethod (iOS) */;
+			targetProxy = 626FD13B77B02C0580CC0F72 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		E9D27075257B65AB009C182A /* Debug */ = {
+		0780826700E4AEF548B3A5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286D21A73BC5F3CFECDAD775 /* SpiceMethod (iOS)-Debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3VC35JGS33;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D Debug -Xfrontend -debug-time-function-bodies";
+				PROVISIONING_PROFILE_SPECIFIER = "com.akira.matsuda.SpiceMethod (iOS) Development";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				UPDATE_R_SWIFT = NO;
+			};
+			name = Debug;
+		};
+		29A52F000A9453EEDB2CEBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 539457D9C64CBB5F163A1A57 /* SpiceMethod (macOS)-Debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3VC35JGS33;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D Debug -Xfrontend -debug-time-function-bodies";
+				PROVISIONING_PROFILE_SPECIFIER = "com.akira.matsuda.SpiceMethod (macOS) Development";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				UPDATE_R_SWIFT = NO;
+			};
+			name = Debug;
+		};
+		3746E4317F2B7CE318A0557A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5085F6EB5A0B92C5C6FD8FCD /* Tests macOS-Debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpiceMethod (macOS).app/Contents/MacOS/SpiceMethod (macOS)";
+			};
+			name = Debug;
+		};
+		3E1467FA8FB59CB3F34FC488 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -396,8 +641,8 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"DEBUG=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -405,15 +650,174 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		E9D27076257B65AB009C182A /* Release */ = {
+		5033B31A020BA4B9373C4242 /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Production;
+		};
+		634F404AD46DA67139FE95EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313160B9A8B0E40B6FF31FA7 /* SpiceMethod (macOS)-Release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3VC35JGS33;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D Release";
+				PROVISIONING_PROFILE_SPECIFIER = "com.akira.matsuda.SpiceMethod (macOS) Development";
+				UPDATE_R_SWIFT = NO;
+			};
+			name = Release;
+		};
+		6A850749751A41CC8EECC57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAC8C4AE2FC33C2D52BA33ED /* Tests iOS-Debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpiceMethod (iOS).app/SpiceMethod (iOS)";
+			};
+			name = Debug;
+		};
+		7A4C66D27F5CF6B5BDDB95C3 /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpiceMethod (iOS).app/SpiceMethod (iOS)";
+			};
+			name = Production;
+		};
+		842234091E823EA6B3EDF155 /* Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0523F9CF81AA607B37BE4BF /* Pods-SpiceMethod (macOS).production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3VC35JGS33;
+				INFOPLIST_FILE = "SpiceMethod (macOS)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PROVISIONING_PROFILE_SPECIFIER = "com.akira.matsuda.SpiceMethod (macOS) Development";
+				SDKROOT = macosx;
+				UPDATE_R_SWIFT = NO;
+			};
+			name = Production;
+		};
+		936815746AB8D533A90286AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79B568C8B55CC761190CCDA /* Tests macOS-Release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpiceMethod (macOS).app/Contents/MacOS/SpiceMethod (macOS)";
+			};
+			name = Release;
+		};
+		A579A78C4889ADFA84E372CC /* Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C3C3B66ABD0011FB1334C6 /* Pods-SpiceMethod (iOS).production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3VC35JGS33;
+				INFOPLIST_FILE = "SpiceMethod (iOS)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PROVISIONING_PROFILE_SPECIFIER = "com.akira.matsuda.SpiceMethod (iOS) Development";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				UPDATE_R_SWIFT = NO;
+			};
+			name = Production;
+		};
+		AD2B7870C60413D484B1B977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D68C193F1302271925E5DEB /* Tests iOS-Release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpiceMethod (iOS).app/SpiceMethod (iOS)";
+			};
+			name = Release;
+		};
+		C32AEE9D7998DCFB03E5A646 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -458,244 +862,141 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		E9D27078257B65AB009C182A /* Debug */ = {
+		DAC0D72AEB156037172B5A6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99BF549FF442C00A14D846F9 /* SpiceMethod (iOS)-Release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3VC35JGS33;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.akira.matsuda.SpiceMethod;
-				PRODUCT_NAME = SpiceMethod;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E9D27079257B65AB009C182A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3VC35JGS33;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.akira.matsuda.SpiceMethod;
-				PRODUCT_NAME = SpiceMethod;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D Release";
+				PROVISIONING_PROFILE_SPECIFIER = "com.akira.matsuda.SpiceMethod (iOS) Development";
+				UPDATE_R_SWIFT = NO;
 			};
 			name = Release;
 		};
-		E9D2707B257B65AB009C182A /* Debug */ = {
+		F09397F58BD44C605F4881FA /* Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3VC35JGS33;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.akira.matsuda.SpiceMethod;
-				PRODUCT_NAME = SpiceMethod;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		E9D2707C257B65AB009C182A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3VC35JGS33;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.akira.matsuda.SpiceMethod;
-				PRODUCT_NAME = SpiceMethod;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		E9D2707E257B65AB009C182A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3VC35JGS33;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.akira.matsuda.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "SpiceMethod (iOS)";
-			};
-			name = Debug;
-		};
-		E9D2707F257B65AB009C182A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3VC35JGS33;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.akira.matsuda.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "SpiceMethod (iOS)";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E9D27081257B65AB009C182A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3VC35JGS33;
 				INFOPLIST_FILE = "Tests macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.akira.matsuda.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "SpiceMethod (macOS)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpiceMethod (macOS).app/Contents/MacOS/SpiceMethod (macOS)";
 			};
-			name = Debug;
-		};
-		E9D27082257B65AB009C182A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3VC35JGS33;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.akira.matsuda.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "SpiceMethod (macOS)";
-			};
-			name = Release;
+			name = Production;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E9D27044257B65AA009C182A /* Build configuration list for PBXProject "SpiceMethod" */ = {
+		2104836D14FF0C94A3332610 /* Build configuration list for PBXNativeTarget "SpiceMethod (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9D27075257B65AB009C182A /* Debug */,
-				E9D27076257B65AB009C182A /* Release */,
+				0780826700E4AEF548B3A5BF /* Debug */,
+				A579A78C4889ADFA84E372CC /* Production */,
+				DAC0D72AEB156037172B5A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		E9D27077257B65AB009C182A /* Build configuration list for PBXNativeTarget "SpiceMethod (iOS)" */ = {
+		23061A4A92459AF851FDEB67 /* Build configuration list for PBXNativeTarget "SpiceMethod (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9D27078257B65AB009C182A /* Debug */,
-				E9D27079257B65AB009C182A /* Release */,
+				29A52F000A9453EEDB2CEBA5 /* Debug */,
+				842234091E823EA6B3EDF155 /* Production */,
+				634F404AD46DA67139FE95EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		E9D2707A257B65AB009C182A /* Build configuration list for PBXNativeTarget "SpiceMethod (macOS)" */ = {
+		44168689532FB18162F88CFD /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9D2707B257B65AB009C182A /* Debug */,
-				E9D2707C257B65AB009C182A /* Release */,
+				6A850749751A41CC8EECC57A /* Debug */,
+				7A4C66D27F5CF6B5BDDB95C3 /* Production */,
+				AD2B7870C60413D484B1B977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		E9D2707D257B65AB009C182A /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+		53B14520FD9A94F41AB71756 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9D2707E257B65AB009C182A /* Debug */,
-				E9D2707F257B65AB009C182A /* Release */,
+				3746E4317F2B7CE318A0557A /* Debug */,
+				F09397F58BD44C605F4881FA /* Production */,
+				936815746AB8D533A90286AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		E9D27080257B65AB009C182A /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+		752EB65AD1434021289E86E4 /* Build configuration list for PBXProject "SpiceMethod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9D27081257B65AB009C182A /* Debug */,
-				E9D27082257B65AB009C182A /* Release */,
+				3E1467FA8FB59CB3F34FC488 /* Debug */,
+				5033B31A020BA4B9373C4242 /* Production */,
+				C32AEE9D7998DCFB03E5A646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52AFC2620CB6AD2ABEC882DD /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/piknotech/SFSafeSymbols.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+		E85494B29FB18CCECE6B13E9 /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/WhatsNewKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A27BB0C184E1BFA28DBDA79 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E85494B29FB18CCECE6B13E9 /* RemoteSwiftPackageReference */;
+			productName = WhatsNewKit;
+		};
+		62BBE24379727F475C360D65 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E85494B29FB18CCECE6B13E9 /* RemoteSwiftPackageReference */;
+			productName = WhatsNewKit;
+		};
+		686443CD6511186A52D6BF3D /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52AFC2620CB6AD2ABEC882DD /* RemoteSwiftPackageReference */;
+			productName = SFSafeSymbols;
+		};
+		752D51BDF13D9B66C5B70E37 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52AFC2620CB6AD2ABEC882DD /* RemoteSwiftPackageReference */;
+			productName = SFSafeSymbols;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = E9D27041257B65AA009C182A /* Project object */;
+	rootObject = E6FF84450C85829198556111 /* Project object */;
 }
